@@ -5,9 +5,9 @@ import BlogCard from './blog-card';
 import { unstable_noStore as noStore } from 'next/cache';
 async function getData() {
   noStore();
-  const res = await fetch(`http://localhost:3001/api`)
+  const res = await fetch(`https://www.blog.iplust.in/api`)
   if (!res.ok) {
-    throw new Error('Failed to fetch data')
+    return [];
   }
 
   const data = await res.json();
