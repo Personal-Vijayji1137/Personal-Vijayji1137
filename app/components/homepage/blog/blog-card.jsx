@@ -1,9 +1,7 @@
-'use server'
 import Image from 'next/image';
 import Link from 'next/link';
 import { BsHeartFill } from 'react-icons/bs';
-import { FaCommentAlt } from 'react-icons/fa';
-export async function timeConverter(isoTime) {
+export function timeConverter(isoTime) {
   const currentTime = new Date().getTime();
   const pastTime = new Date(isoTime).getTime();
   const timeDifference = currentTime - pastTime;
@@ -29,7 +27,7 @@ export async function timeConverter(isoTime) {
     return `${years} years ago`;
   }
 }
-async function BlogCard({ blog }) {
+function BlogCard({ blog }) {
   return (
     <div className="border border-[#1d293a] hover:border-[#464c6a] transition-all duration-500 bg-[#1b203e] rounded-lg relative group"
     >
