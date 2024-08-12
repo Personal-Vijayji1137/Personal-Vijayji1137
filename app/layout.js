@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import Navbar from "./components/navbar";
-import "./css/card.scss";
-import "./css/globals.scss";
+import "./css/card.css";
+import "./css/globals.css";
 import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
