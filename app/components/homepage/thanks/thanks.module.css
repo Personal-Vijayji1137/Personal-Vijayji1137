@@ -1,0 +1,97 @@
+#page {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    width: 100%;
+    max-width: 400px;
+    height: 50svh;
+    margin: 10px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -50svh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 1px solid #0bbf64;
+    -webkit-animation: moveFromTopToCenter 2s forwards;
+            animation: moveFromTopToCenter 2s forwards;
+}
+@-webkit-keyframes moveFromTopToCenter {
+    0% {
+        margin-top: -50svh;
+    }  
+    100% {
+        margin-top: 0svh;
+    }
+  }
+@keyframes moveFromTopToCenter {
+    0% {
+        margin-top: -50svh;
+    }  
+    100% {
+        margin-top: 0svh;
+    }
+  }
+#page>div {
+    text-align: center;
+    padding: 2%;
+    font-size: 2rem;
+}
+
+#Thankyou {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100svh;
+    position: fixed;
+    width: 100vw;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+#page>button {
+    font-size: 1rem;
+    background-color: var(--theam-color);
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    padding: 0.8rem 1rem;
+    border: 0;
+    cursor: pointer;
+}
+
+#page>div:nth-child(3) {
+    font-size: 0.9rem;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    #page>div {
+        
+        font-size: 1.5rem;
+    }
+    #page>button {
+        font-size: 0.8rem;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+       width: 95%;
+     
+       
+    }
+}

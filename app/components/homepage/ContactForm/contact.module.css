@@ -1,0 +1,206 @@
+.Contact{
+    margin: 2vw;
+    border-radius: 20px;
+    display: flex;
+    padding: 1vw;
+}
+.Contact *{
+    background-color: transparent;
+}
+.Contact > div:nth-child(1){
+    width: 35vw;
+}
+.Contact > div:nth-child(2){
+    width: 58vw;
+}
+.Contact > div > div > div:nth-child(1){
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.Contact > div > div > div:nth-child(2){
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+.Contact > div > div:nth-child(2) > img{
+    margin: 3rem 0;
+}
+.ContactForm > div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.ContactForm > div > input{
+    width: 40%;
+    padding: 1rem;
+    color: #fff;
+    outline: none;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(26 20 67);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+.ContactForm > div > input::-webkit-input-placeholder{
+    color: #fff;
+}
+.ContactForm > div > input::-moz-placeholder{
+    color: #fff;
+}
+.ContactForm > div > input:-ms-input-placeholder{
+    color: #fff;
+}
+.ContactForm > div > input::-ms-input-placeholder{
+    color: #fff;
+}
+.ContactForm > div > input::placeholder{
+    color: #fff;
+}
+.ContactForm > div > textarea{
+    width: 90%;
+    height: 6rem;
+    padding: 1rem;
+    resize: none;
+    color: #fff;
+    outline: none;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(26 20 67);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+.ContactForm > div > textarea::-webkit-input-placeholder{
+    color: #fff;
+}
+.ContactForm > div > textarea::-moz-placeholder{
+    color: #fff;
+}
+.ContactForm > div > textarea:-ms-input-placeholder{
+    color: #fff;
+}
+.ContactForm > div > textarea::-ms-input-placeholder{
+    color: #fff;
+}
+.ContactForm > div > textarea::placeholder{
+    color: #fff;
+}
+.ContactForm > div > div{
+    width: 100%;
+    text-align: end;
+}
+.ContactForm > div > div > button{
+    font-size: 1rem;
+    margin: 0 20px;
+    font-weight: bolder;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    border: 0.5px solid rgba(97, 97, 97, 0.541);
+    cursor: pointer;
+}
+@media only screen and (max-width: 1100px) {
+    .Contact > div > div > div:nth-child(1){
+        font-size: 3.5rem;
+    }
+    .Contact > div:nth-child(1){
+        width: 40vw;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .Contact > div > div > div:nth-child(1){
+        font-size: 3rem;
+    }
+    .Contact > div > div > div:nth-child(2){
+        font-size: 2.5rem;
+    }
+    .Contact > div:nth-child(1){
+        width: 40vw;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .Contact{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .Contact > div > div > div:nth-child(1){
+        font-size: 3rem;
+    }
+    .Contact > div > div > div:nth-child(2){
+        font-size: 2.5rem;
+    }
+    .Contact > div:nth-child(1){
+        width: 94vw;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .Contact > div:nth-child(2){
+        margin-top: 3rem;
+        width: 94vw;
+    }
+    .Contact > div > div:nth-child(2) > img{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 600px){
+    .Contact > div:nth-child(1){
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .Contact > div > div > div:nth-child(1){
+        text-align: center;
+    }
+    .Contact > div > div > div:nth-child(2){
+        text-align: center;
+    }
+    .Contact > div > div:nth-child(2) > img{
+        margin: 2rem 0;
+    }
+    .Contact > div:nth-child(2){
+        margin-top: 1rem;
+    }
+    .Logo{
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 500px){
+    .ContactForm > div{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .ContactForm > div > input{
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .ContactForm > div > textarea{
+        margin-bottom: 1rem;
+    }
+}
+@media only screen and (max-width: 450px){
+    .ContactForm > div > div > button{
+        width: 100%;
+        margin: 0;
+        border-radius: 5px;
+        font-size: 0.6rem;
+    }
+
+}

@@ -1,0 +1,54 @@
+.Loader {
+    width: 100vw;
+    height: 100svh;
+    position: fixed;
+    z-index: 1000000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.856);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.Loader>span {
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
+    border-radius: 50%;
+    -webkit-animation: rotation 1s linear infinite;
+            animation: rotation 1s linear infinite;
+    background-color: transparent;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}

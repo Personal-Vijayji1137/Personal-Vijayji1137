@@ -5,46 +5,56 @@ import realEstate from '/public/image/real-estate.jpg';
 import travel from '/public/image/travel.jpg';
 
 const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-        image: crefin,
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: travel,
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-        image: realEstate,
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: 'LOVERS - IPT - I Plus T Solution',
+    description: "Discover a private and secure chat space just for you and your partner. For a one-time payment of ₹99 per user, enjoy lifetime access to a platform designed with your privacy in mind. Experience worry-free conversations with end-to-end encryption and no ads. Sign up now for your exclusive, secure chat space!",
+    tools: ['Next.js', 'MySQL', 'Supabase', 'AWS S3', 'Node Mailer', 'JWT'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: '',
+    image: crefin,
+  },
+  {
+    id: 2,
+    name: 'Photo AI',
+    description: 'Photo AI is a cutting-edge alternative to Google Photos, designed for seamless event management. It utilizes AI to organize and tag photos efficiently, simplifying the process of handling large volumes of images. Perfect for both personal and professional events, Photo AI ensures a smooth and intuitive photo management experience.',
+    tools: ['Next.js', 'Python','Fast API', "JavaScript", "AWS AppSync", "MySQL", "AWS S3"],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: '',
+    image: travel,
+  },
+  {
+    id: 3,
+    name: 'I Plus T Solution Blogs',
+    description: 'Stay ahead in the tech world with the I Plus T Solution Blog. Get the latest IT news, trends, and expert tips. Explore in-depth articles, practical guides, and insightful analysis on all things IT. Join our community for the best IT resources and stay updated on the ever-evolving tech landscape.',
+    tools: ['Next.js', 'NestJS', "JavaScript", "AWS AppSync", "MySQL", "AWS S3"],
+    role: 'Backend Developer',
+    code: '',
+    demo: '',
+    image: travel,
+  },
+  {
+    id: 4,
+    name: 'Company Website',
+    description: "I Plus T Solution: Your Growth Partner for Start ups 🚀 Empowering fledgling businesses to thrive, we provide tailored solutions for sustainable growth. From strategic planning to cutting-edge technology implementation, we're dedicated to propelling your venture forward. Let's collaborate and transform your startup dreams into success stories together",
+    tools: ['Next.js', 'Node.js', 'Node Mailer', 'AWS AppSync'],
+    code: '',
+    role: 'Full Stack Developer',
+    demo: '',
+    image: realEstate,
+  },
+  {
+    id: 5,
+    name: 'Red Lorry Film Festival',
+    description: "Immerse yourself in the world of cinema at the Red Lorry Film Festival! Experience a diverse range of global films across genres in the heart of the city. Join us for premieres, TV shows, classics, and more, alongside delightful cuisines, conversations, and camaraderie",
+    tools: ['React', 'MongoDB', 'Node.js', "S3"],
+    code: '',
+    demo: '',
+    image: ayla,
+    role: 'Frontend Developer',
+  }
 ];
 const Projects = () => {
 
@@ -62,7 +72,7 @@ const Projects = () => {
 
       <div className="pt-24">
         <div className="flex flex-col gap-6">
-          {projectsData.slice(0, 4).map((project, index) => (
+          {projectsData.map((project, index) => (
             <div
               id={`sticky-card-${index + 1}`}
               key={index}

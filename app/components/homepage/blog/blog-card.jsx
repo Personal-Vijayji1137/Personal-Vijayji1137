@@ -51,8 +51,8 @@ function BlogCard({ blog }) {
             </p>
           </div>
         </div>
-        <Link target='_blank' href='/'>
-          <p className='my-2 lg:my-3 cursor-pointer text-lg text-white sm:text-xl font-medium hover:text-violet-500 line-clamp-2'>
+        <Link target='_blank' href={`https://www.blog.iplust.in/post/${blog.Title.split(" ").join("-")}`}>
+          <p className='my-2 lg:my-3 cursor-pointer text-lg text-white sm:text-xl font-medium line-clamp-2'>
             {blog.Title}
           </p>
         </Link>
@@ -63,8 +63,8 @@ function BlogCard({ blog }) {
           {blog.Description}
         </p>
         <div className="">
-          <Link target='_blank' href='/'>
-            <button className='bg-violet-500 text-white px-3 py-1.5 rounded-full text-xs'>
+          <Link target='_blank' href={`https://www.blog.iplust.in/post/${blog.Title.split(" ").join("-")}`}>
+            <button className='bg-violet-500 text-white mt-5 rounded px-3 py-1.5 text-xs'>
               Read More
             </button>
           </Link>

@@ -8,21 +8,21 @@ import lottieFile from '/public/lottie/study.json';
 const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Full Stack && QA Course",
+    duration: "2022 - 2023",
+    institution: "Masai School",
   },
   {
     id: 2,
     title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    duration: "2020 - 2022",
+    institution: "SND Public school",
   },
   {
     id: 3,
     title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    duration: "2008 - 2020",
+    institution: "SND Public school",
   }
 ]
 function Education() {

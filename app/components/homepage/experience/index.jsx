@@ -6,21 +6,21 @@ import experience from '/public/lottie/code.json';
 const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
+    title: 'FullStack Developer',
+    company: "Es Magico Tech Studio",
+    duration: "(January 2024 - Present)"
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    title: "Intern At Es Magico",
+    company: "Worked as a QA and full-stack developer",
+    duration: "(September 2023 - December 2023)"
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
+    title: "Intern At Masai School",
+    company: "Gaining Experience in Full-Stack and QA",
+    duration: "(June 2023 - August 2023)"
   }
 ]
 function Experience() {
