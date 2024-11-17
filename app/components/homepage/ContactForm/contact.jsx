@@ -50,23 +50,15 @@ export default function ContactForm() {
                 </div>
                 <div className="flex justify-center my-5 lg:py-8">
                     <div className="flex  items-center">
-                        <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+                        <span className="w-15 h-[2px] bg-[#1a1443]"></span>
                         <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
                             Contact Me
                         </span>
-                        <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+                        <span className="w-15 h-[2px] bg-[#1a1443]"></span>
                     </div>
                 </div>
                 <div className={Styles.Contact} id="LetsTalk">
-                    <div>
-                        <div>
-                            <div>Contact</div>
-                            <div>With Me</div>
-                        </div>
-                        <div className={Styles.Logo}>
-                        </div>
-                    </div>
-                    <div>
+                    {/* <div> */}
                         <form ref={formRef} onSubmit={HandelSubmit} className={Styles.ContactForm}>
                             <div>
                                 <input id="FirstName" name="FirstName" type="text" placeholder="First Name" required />
@@ -85,7 +77,7 @@ export default function ContactForm() {
                                 </div>
                             </div>
                         </form>
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </>

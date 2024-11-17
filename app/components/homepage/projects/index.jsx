@@ -7,6 +7,26 @@ import travel from '/public/image/travel.jpg';
 const projectsData = [
   {
     id: 1,
+    name: 'Lit Star - I Plus T Solution',
+    description: "Lit Star is an innovative social platform where users can watch reels, add stories, and earn money through exciting features like scratch cards and games. Designed for seamless performance and user engagement, the app ensures high-quality experiences with cutting-edge technology and intuitive design. Powered by I Plus T Solution for a better digital tomorrow.",
+    tools: ['React Native', 'Node.js', 'MySQL', 'AWS S3', 'JWT', 'Socket.io'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: '',
+    image: crefin,
+  },
+  {
+    id: 2,
+    name: 'Red Lorry Film Festival',
+    description: "Immerse yourself in the world of cinema at the Red Lorry Film Festival! Experience a diverse range of global films across genres in the heart of the city. Join us for premieres, TV shows, classics, and more, alongside delightful cuisines, conversations, and camaraderie",
+    tools: ['React', 'MongoDB', 'Node.js', "S3"],
+    code: '',
+    demo: '',
+    image: ayla,
+    role: 'Frontend Developer',
+  },
+  {
+    id: 3,
     name: 'LOVERS - IPT - I Plus T Solution',
     description: "Discover a private and secure chat space just for you and your partner. For a one-time payment of ₹99 per user, enjoy lifetime access to a platform designed with your privacy in mind. Experience worry-free conversations with end-to-end encryption and no ads. Sign up now for your exclusive, secure chat space!",
     tools: ['Next.js', 'MySQL', 'Supabase', 'AWS S3', 'Node Mailer', 'JWT'],
@@ -16,7 +36,7 @@ const projectsData = [
     image: crefin,
   },
   {
-    id: 2,
+    id: 4,
     name: 'Photo AI',
     description: 'Photo AI is a cutting-edge alternative to Google Photos, designed for seamless event management. It utilizes AI to organize and tag photos efficiently, simplifying the process of handling large volumes of images. Perfect for both personal and professional events, Photo AI ensures a smooth and intuitive photo management experience.',
     tools: ['Next.js', 'Python','Fast API', "JavaScript", "AWS AppSync", "MySQL", "AWS S3"],
@@ -26,7 +46,7 @@ const projectsData = [
     image: travel,
   },
   {
-    id: 3,
+    id: 5,
     name: 'I Plus T Solution Blogs',
     description: 'Stay ahead in the tech world with the I Plus T Solution Blog. Get the latest IT news, trends, and expert tips. Explore in-depth articles, practical guides, and insightful analysis on all things IT. Join our community for the best IT resources and stay updated on the ever-evolving tech landscape.',
     tools: ['Next.js', 'NestJS', "JavaScript", "AWS AppSync", "MySQL", "AWS S3"],
@@ -36,7 +56,7 @@ const projectsData = [
     image: travel,
   },
   {
-    id: 4,
+    id: 6,
     name: 'Company Website',
     description: "I Plus T Solution: Your Growth Partner for Start ups 🚀 Empowering fledgling businesses to thrive, we provide tailored solutions for sustainable growth. From strategic planning to cutting-edge technology implementation, we're dedicated to propelling your venture forward. Let's collaborate and transform your startup dreams into success stories together",
     tools: ['Next.js', 'Node.js', 'Node Mailer', 'AWS AppSync'],
@@ -44,16 +64,6 @@ const projectsData = [
     role: 'Full Stack Developer',
     demo: '',
     image: realEstate,
-  },
-  {
-    id: 5,
-    name: 'Red Lorry Film Festival',
-    description: "Immerse yourself in the world of cinema at the Red Lorry Film Festival! Experience a diverse range of global films across genres in the heart of the city. Join us for premieres, TV shows, classics, and more, alongside delightful cuisines, conversations, and camaraderie",
-    tools: ['React', 'MongoDB', 'Node.js', "S3"],
-    code: '',
-    demo: '',
-    image: ayla,
-    role: 'Frontend Developer',
   }
 ];
 const Projects = () => {

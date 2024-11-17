@@ -25,6 +25,9 @@
 .Contact > div > div:nth-child(2) > img{
     margin: 3rem 0;
 }
+.ContactForm{
+    width: 100%;
+}
 .ContactForm > div{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -141,7 +144,7 @@
         font-size: 2.5rem;
     }
     .Contact > div:nth-child(1){
-        width: 94vw;
+        width: 100%;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
@@ -188,11 +191,12 @@
                 flex-direction: column;
     }
     .ContactForm > div > input{
-        width: 90%;
+        width: 100%;
         margin-bottom: 1rem;
     }
     .ContactForm > div > textarea{
         margin-bottom: 1rem;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 450px){

@@ -23,5 +23,6 @@ module.exports = {
         pathname: '**',
       }
     ],
-  }
+  },
+  compress: true,
 }
