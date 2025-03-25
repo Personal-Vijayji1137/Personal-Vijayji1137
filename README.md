@@ -1,4 +1,3 @@
-```md
 # 🚀 Welcome to My World of Innovation!
 
 ## 🌟 About Me
@@ -6,7 +5,6 @@ Hey there! I'm **Jitender**, a passionate **Full-Stack Developer** with over **2
 
 I thrive on **solving complex problems**, **building scalable architectures**, and **bringing ideas to life** with intuitive designs, animations, and real-time interactions.
 
----
 
 ## 🎯 What I Do
 - ⚡ **Full-Stack Development** – Building powerful and scalable web and mobile applications.
@@ -18,7 +16,6 @@ I thrive on **solving complex problems**, **building scalable architectures**, a
 - 🛠 **Load Balancing & Server Management** – Managing multiple servers for high availability.
 - 🏆 **Scalable Architecture** – Designing robust systems that handle high traffic smoothly.
 
----
 
 ## 🏆 Key Achievements
 ✅ **Built multiple high-performing mobile and web applications** for diverse industries.
@@ -32,7 +29,6 @@ I thrive on **solving complex problems**, **building scalable architectures**, a
 ✅ Integrated **real-time features** such as notifications, messaging, and live updates.
 ✅ Contributed to open-source projects and helped improve community-driven solutions.
 
----
 
 ## 🛠️ Tech Stack & Tools
 🔹 **Frontend:** React Native, React.js, JavaScript, TypeScript, HTML, CSS  
@@ -42,7 +38,6 @@ I thrive on **solving complex problems**, **building scalable architectures**, a
 🔹 **Tools:** VS Code, Git, Postman, React DevTools, Docker  
 🔹 **Others:** Video Streaming (m3u8), FlashList, Performance Tuning, WebSockets  
 
----
 
 ## 🔥 Why Hire Me?
 💡 **Creative Problem-Solver:** I find innovative solutions to complex technical challenges.  
@@ -50,9 +45,7 @@ I thrive on **solving complex problems**, **building scalable architectures**, a
 🎨 **User-Centric Approach:** I craft sleek, modern, and engaging applications.  
 🔒 **Reliable & Scalable:** My code is clean, maintainable, and future-proof.  
 🚀 **Versatile Skillset:** I can handle both frontend and backend development effortlessly.  
-📈 **Business-Minded Developer:** I understand how technology impacts business growth.  
----
-
+📈 **Business-Minded Developer:** I understand how technology impacts business growth.
 ## 📫 Let's Connect!
 📧 Email: **personal.vijayji1137@gmail.com**  
 🔗 LinkedIn: [linkedin/@jitender1137](https://www.linkedin.com/in/jitender1137/)  
@@ -60,4 +53,3 @@ I thrive on **solving complex problems**, **building scalable architectures**, a
 🌐 LitStar: [litstar/@vijay](https://www.litstar.iplust.in/app/user/1)
 
 ✨ Looking for a **skilled, dedicated, and passionate developer**? Let's build something amazing together! 🚀
-```
