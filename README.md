@@ -74,7 +74,7 @@ I thrive on **solving complex problems**, **building scalable architectures**, a
 ## 📫 Let's Connect!
 📧 Email: **personal.vijayji1137@gmail.com**  
 🔗 LinkedIn: [linkedin/@jitender1137](https://www.linkedin.com/in/jitender1137/)  
-🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)  
+🌐 Portfolio: [portfolio.in](https://about-opal-omega.vercel.app/)  
 🌐 LitStar: [litstar/@vijay](https://www.litstar.iplust.in/app/user/1)
 
 ✨ Looking for a **skilled, dedicated, and passionate developer**? Let's build something amazing together! 🚀
