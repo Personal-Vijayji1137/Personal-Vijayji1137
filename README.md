@@ -2,10 +2,6 @@
   <img src="https://cdn.pixabay.com/animation/2024/07/31/20/48/20-48-43-696_512.gif" alt="Jitender" />
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF7F50&width=435&lines=Full-Stack+Code+Magician;UI%2FUX+Sorcerer;Performance+Wizard;Database+Ninja" alt="Typing SVG" />
-</div>
-
 # 🚀 **Welcome to My Digital Playground!** 🎮
 
 
