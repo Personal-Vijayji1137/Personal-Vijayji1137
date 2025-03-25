@@ -11,13 +11,13 @@ export default async function SendEmail(Data) {
         port: 465,
         secure: true,
         auth: {
-          user: 'about@iplust.in',
-          pass: 'Aboutvijay123@@',
+          user: process.env.Email,
+          pass: process.env.EmailPassword,
         },
       });
       try {
         const infomailOptions = await transport.sendMail({
-            from: 'about@iplust.in',
+            from: process.env.Email,
             to: `personal.vijayji1137@gmail.com,${email},info@iplust.in`,
             subject: `Thanks, ${FirstName} ${LastName}! I Will Get In Touch With You`,
             text: `Name: ${FirstName} ${LastName} \nEmail: ${email}\nMessage: \n${Message}\nMobile Number : ${mobileNumber}`,
