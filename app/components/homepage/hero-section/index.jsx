@@ -29,7 +29,7 @@ function HeroSection() {
 
           <div className="my-12 flex items-center gap-5">
             <Link
-              href='https://www.linkedin.com/in/jitender1137/'
+              href='https://github.com/Personal-Vijayji1137'
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
