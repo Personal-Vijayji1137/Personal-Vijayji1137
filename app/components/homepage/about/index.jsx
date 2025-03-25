@@ -24,12 +24,12 @@ function AboutSection() {
               Who I am?
             </p>
             <p className="text-gray-200 text-sm lg:text-lg">
-              I’m a dedicated full-stack developer with a year of hands-on experience in building dynamic web applications using React, Next.js, Node.js and More. Adept at crafting seamless user experiences and solving complex technical challenges. Committed to continuous learning and delivering high-quality code that powers innovative solutions.
+              I’m a dedicated full-stack developer with two year of hands-on experience in building dynamic web applications using React, Next.js, Node.js and More. Adept at crafting seamless user experiences and solving complex technical challenges. Committed to continuous learning and delivering high-quality code that powers innovative solutions.
             </p>
           </div>
           <div className="flex justify-center order-1 lg:order-2">
             <Image
-              src="/profile.png"
+              src="/profile.jpeg"
               width={280}
               height={280}
               alt="Abu Said"

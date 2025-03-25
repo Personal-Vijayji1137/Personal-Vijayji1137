@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     name: 'Lit Star - I Plus T Solution',
     description: "Lit Star is an innovative social platform where users can watch reels, add stories, and earn money through exciting features like scratch cards and games. Designed for seamless performance and user engagement, the app ensures high-quality experiences with cutting-edge technology and intuitive design. Powered by I Plus T Solution for a better digital tomorrow.",
-    tools: ['React Native', 'Node.js', 'MySQL', 'AWS S3', 'JWT', 'Socket.io'],
+    tools: ['React Native', 'Node.js', 'MySQL', 'AWS', 'JWT', 'Firebase'],
     role: 'Full Stack Developer',
     code: '',
     demo: '',

@@ -36,11 +36,11 @@ function ContactSection() {
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
               />
-              <span>13, Gali No. 190, Lekhu Nagar, Burari, Delhi, 110084</span>
+              <span>Delhi, 110084</span>
             </p>
           </div>
           <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
-            <Link target="_blank" href='https://github.com/jitenderji1137'>
+            <Link target="_blank" href='https://github.com/Personal-Vijayji1137'>
               <IoLogoGithub
                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={48}

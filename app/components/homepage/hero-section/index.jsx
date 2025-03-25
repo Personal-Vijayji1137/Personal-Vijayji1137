@@ -110,7 +110,7 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Fast API</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS S3</span>
+                <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"', "}</span>
                 <span className="text-amber-300">...More</span>
                 <span className="text-gray-400">{"],"}</span>
