@@ -14,7 +14,7 @@ const experiences = [
     id: 2,
     title: 'FullStack Developer',
     company: "Es Magico Tech Studio",
-    duration: "(September 2023 - January 2024)"
+    duration: "(September 2023 - July 2024)"
   },
   {
     id: 3,
