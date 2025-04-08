@@ -69,7 +69,7 @@ I thrive on **solving complex problems**, **building scalable architectures**, a
 
 ## 📊 GitHub Stats
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Personal-Vijayji1137&layout=compact)
 
 ## 📫 Let's Connect!
 📧 Email: **personal.vijayji1137@gmail.com**  
