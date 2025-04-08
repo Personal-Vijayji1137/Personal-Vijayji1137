@@ -6,9 +6,9 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Jitender As a Founder of I Plus T Solution",
+  title: "Jitender As a Full Stack Developer",
   description:
-    "I Plus T Solution: Your Growth Partner for Start ups 🚀 Empowering fledgling businesses to thrive, we provide tailored solutions for sustainable growth. From strategic planning to cutting-edge technology implementation, we're dedicated to propelling your venture forward. Let's collaborate and transform your startup dreams into success stories together",
+    "I’m a dedicated full-stack developer with two year of hands-on experience in building dynamic web applications using React, Next.js, Node.js and More. Adept at crafting seamless user experiences and solving complex technical challenges. Committed to continuous learning and delivering high-quality code that powers innovative solutions.",
 };
 
 export default function RootLayout({ children }) {

@@ -67,6 +67,10 @@ I thrive on **solving complex problems**, **building scalable architectures**, a
 🚀 **Versatile Skillset:** I can handle both frontend and backend development effortlessly.  
 📈 **Business-Minded Developer:** I understand how technology impacts business growth.
 
+## 📊 GitHub Stats
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact)
+
 ## 📫 Let's Connect!
 📧 Email: **personal.vijayji1137@gmail.com**  
 🔗 LinkedIn: [linkedin/@jitender1137](https://www.linkedin.com/in/jitender1137/)  

@@ -7,23 +7,17 @@ const experiences = [
   {
     id: 1,
     title: 'FullStack Developer',
-    company: "Es Magico and I Plus T Solution",
+    company: "I Plus T Solution",
     duration: "(July 2024 - Present)"
   },
   {
     id: 2,
     title: 'FullStack Developer',
     company: "Es Magico Tech Studio",
-    duration: "(January 2024)"
+    duration: "(September 2023 - January 2024)"
   },
   {
     id: 3,
-    title: "Intern At Es Magico",
-    company: "Worked as a QA and full-stack developer",
-    duration: "(September 2023 - December 2023)"
-  },
-  {
-    id: 4,
     title: "Intern At Masai School",
     company: "Gaining Experience in Full-Stack and QA",
     duration: "(June 2023 - August 2023)"
